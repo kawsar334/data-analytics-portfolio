@@ -1,0 +1,52 @@
+[
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"Data analyst",
+        "EMP ID":2
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"Data entry ",
+        "EMP ID":4
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"Data scripting",
+        "EMP ID":2
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"Grafics designer",
+        "EMP ID":3
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"app developer",
+        "EMP ID":3
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"backend developer",
+        "EMP ID":1
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"digital marketing ",
+        "EMP ID":5
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"seo expert",
+        "EMP ID":6
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"web designer",
+        "EMP ID":4
+    },
+    {
+        "Company":"Tech Solutions Ltd.",
+        "DESIGNATION":"web developer ",
+        "EMP ID":2
+    }
+]

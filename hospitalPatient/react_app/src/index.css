@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mycolor: #ff5733; 
+  --color-dashboard-bg: #f8fafc;
+  --color-chart-primary: #4f46e5;
+  --my-custom-red: #ff0000;
+}

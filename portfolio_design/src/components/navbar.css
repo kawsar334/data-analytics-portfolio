@@ -1,0 +1,27 @@
+/* Active link color */
+.navbar a.active {
+  color: #f0f0f0; 
+}
+
+/* Active navbar background */
+.navbar.active-navbar {
+  background-color: rgba(0, 0, 0, 0.8); 
+
+}
+
+
+.projectcontainer{
+  
+}
+
+.detailsbtn{
+    transition: all 1s ease ;
+}
+
+.projectcontainer:hover .detailsbtn {
+    /* transform: translateY(-0px);
+    margin-top: 10px; */
+    bottom: 20px;
+  
+
+}

@@ -1,0 +1,19 @@
+.parrentcard:hover .childrenCard{
+    /* transform: translate(0%) ; */
+    
+
+}
+.cartImg{
+transition: all ease 1s;
+}
+
+.parrentcard:hover .cartImg{
+    opacity: 0.2;
+    
+}
+
+.childrenCard{
+
+    /* transition: all ease 1s;
+    transform: translateY(100%) translateX(-200%) ; */
+}
