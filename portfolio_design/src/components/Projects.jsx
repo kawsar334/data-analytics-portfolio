@@ -23,20 +23,20 @@ const Projects = () => {
       description: "A data analysis project focused on student performance evaluation. The dataset was cleaned and preprocessed by handling missing values, followed by exploratory data analysis using Matplotlib to uncover key insights across academic, behavioral, and socio-economic factors influencing exam scores.",
       tech: [ "Python", "Pandas", "JSON", "Matplotlib"],
       type: "Student data analyst dashboard",
-      github: "#",
+      github: "https://github.com/kawsar334/data-analytics-portfolio/tree/main/studentPerformanceFactors",
       live: "#",
-      excel:"#",
+      excel:"https://docs.google.com/spreadsheets/d/1fBCPj7AEDbPGslrZtBI32ZRIiKGgjzdgZG6JZ8_6wPM/edit?usp=sharing",
       // icon: <FaDatabase className="text-emerald-400" />
       icon: <FaTable className="text-blue" />
     },
     {
       title: "CUSTOMERS SHOPING BEHAVIOR ",
-      description: "i clean the missing values using pandas , modified column names , and added in to sql database  , and analyz data using matplotlib , and seaborn , ",
+      description: "An end-to-end data analytics project focused on customer shopping behavior. The dataset was cleaned using Pandas, transformed with optimized column structures, and stored in a SQL database. Insights were extracted using Matplotlib and Seaborn to understand purchasing patterns and customer trends. ",
       tech: [ "Python", "Pandas", "JSON", "Matplotlib",'seaborn'],
       type: "Student data analyst dashboard",
       github: "https://github.com/kawsar334/data-analytics-portfolio/blob/main/customer_shoping_behaviorsss/customer_shoping_behaviors.ipynb",
       live: "#",
-      excel:"#",
+      excel:"https://docs.google.com/spreadsheets/d/1MPcVqC_Tc5XUweiUa1V8x_cGvO6Hk-eK5zPPi25BmUw/edit?usp=sharing",
       // icon: <FaDatabase className="text-emerald-400" />
       icon: <FaTable className="text-blue" />
     },
@@ -74,7 +74,7 @@ const Projects = () => {
               <div className="p-8 bg-borderColor rounded-[calc(1.5rem-1px)] h-full flex flex-col justify-between parrentcard">
                 <div className=''>
                   <div className="flex  justify-between items-start mb-6">
-                    <a title="google sheet " href={project.excel} target='_blank' className="p-4 bg-slate-900 rounded-2xl border border-slate-700 group-hover:scale-110 transition-transform">
+                    <a title="Excel Sheet" href={project.excel} target='_blank' className="p-4 bg-slate-900 rounded-2xl border border-slate-700 group-hover:scale-110 transition-transform">
                       {project.icon}
                     </a>
                     <div className="flex gap-5 ">
@@ -87,7 +87,7 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  <span className="bg-blue-500/10 text-blue text-[10px] px-3 py-1 rounded-full font-bold tracking-widest uppercase border border-blue-500/20">
+                  <span className="bg-blue-500/10 text-blue text-[10px] md:px-3 py-1 rounded-full font-bold uppercase md:border md:border-blue-500/20">
                     {project.type}
                   </span>
 
