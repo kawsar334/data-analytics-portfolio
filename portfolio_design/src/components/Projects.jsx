@@ -87,7 +87,7 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  <span className="bg-blue-500/10 text-blue text-[10px] md:px-3 py-1 rounded-full font-bold uppercase md:border md:border-blue-500/20">
+                  <span className="bg-blue-500/10 text-blue text-[10px] md:px-3 py-1 rounded-full font-bold tracking-widest uppercase md:border md:border-blue-500/20">
                     {project.type}
                   </span>
 
